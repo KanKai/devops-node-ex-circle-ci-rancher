@@ -4,7 +4,7 @@ var apm = require('elastic-apm-node').start({
   // Use if APM Server requires a token
   secretToken: '',
   // Set custom APM Server URL (default: http://localhost:8200)
-  serverUrl: 'elasticsearch'
+  serverUrl: 'elasticsearchamp'
 })
 var express = require('express');
 var path = require('path');
