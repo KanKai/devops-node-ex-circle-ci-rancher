@@ -1,7 +1,7 @@
 var apm = require('elastic-apm-node').start({
   // Set required service name (allowed characters: a-z, A-Z, 0-9, -, _, and space)
   serviceName: 'apm-server',
-  // Set custom APM Server URL (default: http://localhost:8200)
+  // Set custom APM Server URL (default: http://localhost:82000
   serverUrl: 'http://apmserver:8200'
 })
 var express = require('express');
